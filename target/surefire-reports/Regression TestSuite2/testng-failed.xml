@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression TestSuite2]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="com.solarwindsmsp.ExampleWebTestFAIL">
+        <methods>
+          <include name="test1_invalidCredentials"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.solarwindsmsp.ExampleWebTestFAIL -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite2] -->
